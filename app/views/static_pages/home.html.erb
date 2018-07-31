@@ -1,0 +1,12 @@
+<h1>Welcome</h1>
+<p>Speak about you: <br><br></p>
+<form action="/" method="post">
+	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+	<p>What's your first name?</p><br>
+	<input type="text" name="first_name">
+	<p>What's your last name?</p><br>
+	<input type="text" name="last_name">
+	<p>What's your group name?</p><br>
+	<input type="text" name="group"><br>	
+	<input type="submit" name="Send">
+</form>
